@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>HttpStatusCodeExceptionMiddleware</PackageId>
+    <Authors>HttpStatusCodeExceptionMiddleware</Authors>
+    <Company>HttpStatusCodeExceptionMiddleware</Company>
+    <Product>HttpStatusCodeExceptionMiddleware</Product>
+    <Description>Package Description</Description>
+    <Copyright></Copyright>
+    <PackageReleaseNotes></PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>
